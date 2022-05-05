@@ -1,0 +1,28 @@
+DELETE http://localhost:3001/api/persons/hi
+
+###
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+  "name": "",
+  "number": "32698"
+}
+
+###
+PUT http://localhost:3001/api/persons/623cd5315816c227bdfa5baf
+content-type: application/json
+
+{
+  "name": "Nubster IV",
+  "number": "new numba who dis"
+}
+
+###
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+  "name": "Ada Bear",
+  "number": "45764"
+}
